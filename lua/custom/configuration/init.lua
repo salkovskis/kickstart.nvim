@@ -15,9 +15,10 @@ require('conform').setup {
 
 vim.o.relativenumber = true
 
-vim.opt.shiftwidth = 4;
-vim.opt.softtabstop = 4;
-vim.opt.wrap = false;
+vim.opt.shiftwidth = 4
+vim.opt.softtabstop = 4
+vim.opt.tabstop = 4
+vim.opt.wrap = false
 
 require 'custom.configuration.intelephense'
 require 'custom.configuration.conform'
