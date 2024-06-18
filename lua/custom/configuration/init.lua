@@ -20,3 +20,4 @@ vim.opt.softtabstop = 4;
 vim.opt.wrap = false;
 
 require 'custom.configuration.intelephense'
+require 'custom.configuration.conform'
