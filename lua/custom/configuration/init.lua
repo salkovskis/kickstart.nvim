@@ -19,3 +19,4 @@ vim.opt.shiftwidth = 4;
 vim.opt.softtabstop = 4;
 vim.opt.wrap = false;
 
+require 'custom.configuration.intelephense'
